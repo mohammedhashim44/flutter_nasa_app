@@ -29,6 +29,7 @@ Flutter uses Nasa APIs to search nasa library and view up-to-date images of eart
 ## Flutter Version Used : 2.5.3
 ### Features:
 - Developed using MVC pattern
+- Lottie Animation
 - APOD (Astronomy Picture Of The Day)
 	- Picture title and description
 	- Youtube/Network video player for video items
