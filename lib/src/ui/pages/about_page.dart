@@ -1,4 +1,3 @@
-// Stateless widget with centered text and two buttons.
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -19,10 +18,10 @@ var featureInfos = [
   FeatureInfo(
     "EPIC: Earth Polychromatic Imaging Camera",
     "The EPIC API provides information on the daily imagery collected by DSCOVR's "
-    "Earth Polychromatic Imaging Camera (EPIC) instrument.\n"
-    "Uniquely positioned at the"
-    "Earth-Sun Lagrange point, EPIC provides full disc imagery of the Earth and"
-    "captures unique perspectives of certain astronomical events.",
+        "Earth Polychromatic Imaging Camera (EPIC) instrument.\n"
+        "Uniquely positioned at the"
+        "Earth-Sun Lagrange point, EPIC provides full disc imagery of the Earth and"
+        "captures unique perspectives of certain astronomical events.",
   ),
   FeatureInfo(
     "Search in NASA Image and Video Library",
@@ -31,8 +30,9 @@ var featureInfos = [
 ];
 
 String myName = "Mohammed Hashim";
-String myLinkedinLink = "https://www.linkedin.com/in/mohammed-hashim-25764b1b2/";
-String projectGithubLink = "https://github.com/mohammedhashim44/flutter_nasa_app";
+String myLinkedinLink = "https://linkedin.com/in/mohammed-hashim-25764b1b2";
+String projectGithubLink =
+    "https://github.com/mohammedhashim44/flutter_nasa_app";
 
 class AboutPage extends StatelessWidget {
   const AboutPage({Key? key}) : super(key: key);
@@ -84,14 +84,12 @@ class AboutPage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           _buildAboutDataText("Developed By", fontSize: 16),
-          _buildLinkText(myName,
-              myLinkedinLink),
+          _buildLinkText(myName, myLinkedinLink),
           const SizedBox(
             height: 20,
           ),
           _buildAboutDataText("Source Code", fontSize: 16),
-          _buildLinkText("Github",
-              projectGithubLink),
+          _buildLinkText("Github", projectGithubLink),
         ],
       ),
     );
@@ -109,9 +107,13 @@ class AboutPage extends StatelessWidget {
     return GestureDetector(
       onTap: () async {
         Uri link = Uri.parse(url);
-        bool canLaunch = await canLaunchUrl(link);
-        if (canLaunch) {
-          launchUrl(link);
+        try {
+          await launchUrl(
+            link,
+            mode: LaunchMode.externalApplication,
+          );
+        } catch (e) {
+          // Show error message
         }
       },
       child: Text(
