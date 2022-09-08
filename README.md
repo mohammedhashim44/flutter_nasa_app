@@ -4,7 +4,7 @@ Nasa App - Flutter App Uses Nasa Public APIs
 -------------  
 Flutter uses Nasa APIs to search nasa library and view up-to-date images of earth
 
-### To try the app download the apk from the [Release Tab](https://github.com/mohammedhashim44/flutter_nasa_app/releases/tag/1.0.0)  
+### To try the app download the apk from the [Release Tab](https://github.com/mohammedhashim44/flutter_nasa_app/releases/tag/1.0.2)  
 
 # Screenshots
 
