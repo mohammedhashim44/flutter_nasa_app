@@ -30,7 +30,7 @@ class _APODPageState extends StateMVC<APODPage> {
   @override
   void initState() {
     super.initState();
-    _con.getPictureOfTheDay();
+    _con.getPictureOfTheDay(dateTime: getPreviousDayDateTime());
   }
 
   @override
@@ -162,17 +162,23 @@ class _Body extends StatelessWidget {
     try {
       initialDateTime = DateTime.parse(result.date);
     } catch (e) {
-      initialDateTime = DateTime.now();
+      initialDateTime = getPreviousDayDateTime();
     }
 
     final DateTime? pickedDateTime = await showDatePicker(
       context: context,
       initialDate: initialDateTime,
       firstDate: DateTime(1995, 6, 16),
-      lastDate: DateTime.now(),
+      lastDate: getPreviousDayDateTime(),
     );
     if (pickedDateTime != null) {
       onDateChangedCallBack(pickedDateTime);
     }
   }
+}
+
+DateTime getPreviousDayDateTime(){
+  DateTime dateTime = DateTime.now();
+  DateTime previousDayDateTime = dateTime.subtract(const Duration(days: 1));
+  return previousDayDateTime;
 }
