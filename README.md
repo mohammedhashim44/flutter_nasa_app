@@ -6,6 +6,11 @@ Flutter uses Nasa APIs to search nasa library and view up-to-date images of eart
 
 ### To try the app download the apk from the [Release Tab](https://github.com/mohammedhashim44/flutter_nasa_app/releases/tag/1.0.2)  
 
+---
+### Note: if the app didn't work, its probably because the API KEY has reached its limits.
+### To test with your own key, visit [Nasa Website](https://api.nasa.gov/) and create new API KEY and replace it with the old key in `lib/src/repositories/api_repository.dart`.
+---
+
 # Screenshots
 
 
