@@ -41,4 +41,3 @@ class _NetworkVideoPlayerWidgetState extends State<NetworkVideoPlayerWidget> {
     );
   }
 }
-

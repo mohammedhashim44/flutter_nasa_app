@@ -177,7 +177,7 @@ class _Body extends StatelessWidget {
   }
 }
 
-DateTime getPreviousDayDateTime(){
+DateTime getPreviousDayDateTime() {
   DateTime dateTime = DateTime.now();
   DateTime previousDayDateTime = dateTime.subtract(const Duration(days: 1));
   return previousDayDateTime;

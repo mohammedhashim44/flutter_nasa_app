@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_svg/flutter_svg.dart';
 
-
 class NavigationItemWidget extends StatelessWidget {
   final String svgPath;
   final bool isSelected;

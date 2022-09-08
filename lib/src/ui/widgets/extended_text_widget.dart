@@ -36,7 +36,7 @@ class _ExtendedTextWidgetState extends State<ExtendedTextWidget>
       vsync: this,
       duration: animatedIconsDuration,
     );
-    if(visible){
+    if (visible) {
       _animationController.forward();
     }
   }

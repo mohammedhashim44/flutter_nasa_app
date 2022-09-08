@@ -4,7 +4,6 @@ import 'package:nasa_app/src/ui/pages/apod_page.dart';
 import 'package:nasa_app/src/ui/pages/epic_page/epic_page.dart';
 import 'package:nasa_app/src/ui/pages/search_page/search_page.dart';
 
-
 class NavigationItemData {
   final String svgPath;
   final String label;
@@ -19,4 +18,3 @@ var navigationItemsData = [
   NavigationItemData("assets/icons/search.svg", "Search", const SearchPage()),
   NavigationItemData("assets/icons/about.svg", "About", const AboutPage()),
 ];
-

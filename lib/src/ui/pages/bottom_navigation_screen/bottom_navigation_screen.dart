@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nasa_app/src/ui/pages/bottom_navigation_screen/navigation_item_widget.dart';
 import 'package:nasa_app/src/ui/pages/bottom_navigation_screen/navigation_tab_data.dart';
-import 'dart:math' as math ;
-
+import 'dart:math' as math;
 
 class BottomNavigationScreen extends StatefulWidget {
   const BottomNavigationScreen({Key? key}) : super(key: key);
@@ -20,10 +19,12 @@ class _BottomNavigationScreenState extends State<BottomNavigationScreen> {
     selectedIndex = 0;
   }
 
-  String imageUrl = 'https://images.unsplash.com/photo-1465572089651-8fde36c892dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80';
+  String imageUrl =
+      'https://images.unsplash.com/photo-1465572089651-8fde36c892dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80';
 
-  Color randomColor(){
-    return Color((math.Random().nextDouble() * 0xFFFFFF).toInt()).withOpacity(1.0);
+  Color randomColor() {
+    return Color((math.Random().nextDouble() * 0xFFFFFF).toInt())
+        .withOpacity(1.0);
   }
 
   @override

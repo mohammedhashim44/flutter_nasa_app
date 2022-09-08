@@ -2,7 +2,8 @@ import 'package:flutter/material.dart';
 
 class TryAgainErrorWidget extends StatelessWidget {
   final Function onTryAgainClicked;
-  const TryAgainErrorWidget({Key? key, required this.onTryAgainClicked}) : super(key: key);
+  const TryAgainErrorWidget({Key? key, required this.onTryAgainClicked})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {

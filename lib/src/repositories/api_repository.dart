@@ -4,7 +4,7 @@ import 'package:nasa_app/src/models/apod_result.dart';
 import 'package:nasa_app/src/models/epic_result.dart';
 import 'package:nasa_app/src/models/search_result.dart';
 
-String searchEndPoint =  "https://images-api.nasa.gov/search?q=query";
+String searchEndPoint = "https://images-api.nasa.gov/search?q=query";
 
 String apodEndPoint =
     "https://api.nasa.gov/planetary/apod?api_key=API_KEY&date=DATE";
@@ -14,7 +14,8 @@ String epicEndPoint =
 String epicImageAssetPath =
     "https://epic.gsfc.nasa.gov/archive/natural/YEAR/MONTH/DAY/EXT/IMAGE_FILE";
 
-String marsRoversEndPoint = "https://api.nasa.gov/mars-photos/api/v1/rovers?api_key=API_KEY";
+String marsRoversEndPoint =
+    "https://api.nasa.gov/mars-photos/api/v1/rovers?api_key=API_KEY";
 
 const String apiKey = "DEMO_KEY";
 
@@ -24,7 +25,6 @@ abstract class APIRepository {
   Future<APODResult> getPictureOfTheDay();
 
   Future<EPICResult> getEPICPicture({DateTime? dateTime});
-
 }
 
 class NetworkAPIRepository implements APIRepository {
@@ -90,6 +90,4 @@ class NetworkAPIRepository implements APIRepository {
     EPICResult epicResult = EPICResult.fromJson(response.data);
     return epicResult;
   }
-
-
 }

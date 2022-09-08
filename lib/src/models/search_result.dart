@@ -81,7 +81,7 @@ class NasaMediaItem {
     return null;
   }
 
-  bool isVideo(){
+  bool isVideo() {
     return getLargestImage() == null;
   }
 
@@ -91,13 +91,13 @@ class NasaMediaItem {
     String? small;
     String? thumb;
     for (var element in links) {
-      if(element.contains("large.jpg")){
+      if (element.contains("large.jpg")) {
         large = element;
       }
-      if(element.contains("medium.jpg")){
+      if (element.contains("medium.jpg")) {
         medium = element;
       }
-      if(element.contains("small.jpg")){
+      if (element.contains("small.jpg")) {
         small = element;
       }
       if (element.contains("thumb.jpg")) {
@@ -105,16 +105,16 @@ class NasaMediaItem {
       }
     }
 
-    if(large != null) {
+    if (large != null) {
       return large;
     }
-    if(medium != null){
+    if (medium != null) {
       return medium;
     }
-    if(small != null){
+    if (small != null) {
       return small;
     }
-    if(thumb != null){
+    if (thumb != null) {
       return thumb;
     }
     return null;

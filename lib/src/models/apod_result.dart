@@ -28,8 +28,7 @@ class APODResult {
     copyright = json['copyright'];
   }
 
-  bool isVideo(){
+  bool isVideo() {
     return mediaType == "video";
   }
-
 }
