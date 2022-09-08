@@ -18,6 +18,12 @@ Flutter uses Nasa APIs to search nasa library and view up-to-date images of eart
 	<img src="screenshots/1.png" width="300" />
 </p>
 
+
+<p align="center">
+	<img src="screenshots/poster.jpg" />
+</p>
+
+
 <p float="left" align="center">
   <img src="screenshots/2.jpg" width="300" /> 
   <img src="screenshots/3.jpg" width="300" />
