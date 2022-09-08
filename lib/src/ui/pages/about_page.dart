@@ -30,6 +30,10 @@ var featureInfos = [
   ),
 ];
 
+String myName = "Mohammed Hashim";
+String myLinkedinLink = "https://www.linkedin.com/in/mohammed-hashim-25764b1b2/";
+String projectGithubLink = "https://github.com/mohammedhashim44/flutter_nasa_app";
+
 class AboutPage extends StatelessWidget {
   const AboutPage({Key? key}) : super(key: key);
 
@@ -80,14 +84,14 @@ class AboutPage extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           _buildAboutDataText("Developed By", fontSize: 16),
-          _buildLinkText("Mohammed Hashim",
-              "https://www.linkedin.com/in/mohammed-hashim-25764b1b2/"),
+          _buildLinkText(myName,
+              myLinkedinLink),
           const SizedBox(
             height: 20,
           ),
           _buildAboutDataText("Source Code", fontSize: 16),
           _buildLinkText("Github",
-              "https://github.com/mohammedhashim44/Flutter-Lyrics-App"),
+              projectGithubLink),
         ],
       ),
     );
