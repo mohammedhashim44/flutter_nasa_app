@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Nasa App',
-      debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: true,
       theme: FlexColorScheme.light(
         colors: FlexColor.schemes[FlexScheme.material]!.light,
         fontFamily: "Poppins",
