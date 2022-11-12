@@ -1,6 +1,6 @@
 
 
-Nasa App - Flutter App Uses Nasa Public APIs 
+Space API App - Flutter App Uses Nasa Public APIs 
 -------------  
 Flutter App uses Nasa APIs to search nasa library and view up-to-date images of earth
 
