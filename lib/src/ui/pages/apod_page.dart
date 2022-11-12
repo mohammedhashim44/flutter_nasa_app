@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
-import 'package:nasa_app/src/controllers/apod_controller.dart';
-import 'package:nasa_app/src/models/apod_result.dart';
-import 'package:nasa_app/src/ui/widgets/app_text.dart';
-import 'package:nasa_app/src/ui/widgets/extended_text_widget.dart';
-import 'package:nasa_app/src/ui/widgets/image_widgets/app_image_with_photo_view_widget.dart';
-import 'package:nasa_app/src/ui/widgets/loading_widget.dart';
-import 'package:nasa_app/src/ui/widgets/try_again_error_widget.dart';
-import 'package:nasa_app/src/ui/widgets/video_players/network_video_player.dart';
-import 'package:nasa_app/src/ui/widgets/video_players/youtube_video_player.dart';
+import 'package:space_api_app/src/controllers/apod_controller.dart';
+import 'package:space_api_app/src/models/apod_result.dart';
+import 'package:space_api_app/src/ui/widgets/app_text.dart';
+import 'package:space_api_app/src/ui/widgets/extended_text_widget.dart';
+import 'package:space_api_app/src/ui/widgets/image_widgets/app_image_with_photo_view_widget.dart';
+import 'package:space_api_app/src/ui/widgets/loading_widget.dart';
+import 'package:space_api_app/src/ui/widgets/try_again_error_widget.dart';
+import 'package:space_api_app/src/ui/widgets/video_players/network_video_player.dart';
+import 'package:space_api_app/src/ui/widgets/video_players/youtube_video_player.dart';
 
 // APOD : Astronomy Picture Of The Day
 class APODPage extends StatefulWidget {

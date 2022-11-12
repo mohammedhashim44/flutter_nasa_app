@@ -1,6 +1,6 @@
 import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
-import 'package:nasa_app/src/ui/pages/bottom_navigation_screen/bottom_navigation_screen.dart';
+import 'package:space_api_app/src/ui/pages/bottom_navigation_screen/bottom_navigation_screen.dart';
 
 void main() {
   runApp(const MyApp());

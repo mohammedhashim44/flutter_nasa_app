@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:nasa_app/src/ui/pages/about_page.dart';
-import 'package:nasa_app/src/ui/pages/apod_page.dart';
-import 'package:nasa_app/src/ui/pages/epic_page/epic_page.dart';
-import 'package:nasa_app/src/ui/pages/search_page/search_page.dart';
+import 'package:space_api_app/src/ui/pages/about_page.dart';
+import 'package:space_api_app/src/ui/pages/apod_page.dart';
+import 'package:space_api_app/src/ui/pages/epic_page/epic_page.dart';
+import 'package:space_api_app/src/ui/pages/search_page/search_page.dart';
 
 class NavigationItemData {
   final String svgPath;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nasa_app/src/ui/widgets/image_widgets/app_image_widget.dart';
-import 'package:nasa_app/src/ui/widgets/image_widgets/photo_view_widget.dart';
+import 'package:space_api_app/src/ui/widgets/image_widgets/app_image_widget.dart';
+import 'package:space_api_app/src/ui/widgets/image_widgets/photo_view_widget.dart';
 
 class AppImageWithPhotoViewWidget extends StatelessWidget {
   final String url;

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nasa_app/src/models/epic_result.dart';
+import 'package:space_api_app/src/models/epic_result.dart';
 
 class EarthImageCard extends StatelessWidget {
   final EPICItem item;

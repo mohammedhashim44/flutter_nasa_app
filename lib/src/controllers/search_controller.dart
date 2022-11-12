@@ -1,6 +1,6 @@
 import 'package:mvc_pattern/mvc_pattern.dart';
-import 'package:nasa_app/src/models/search_result.dart';
-import 'package:nasa_app/src/repositories/api_repository.dart';
+import 'package:space_api_app/src/models/search_result.dart';
+import 'package:space_api_app/src/repositories/api_repository.dart';
 
 class SearchController extends ControllerMVC {
   bool loading = false;

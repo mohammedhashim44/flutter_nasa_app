@@ -1,8 +1,8 @@
 import 'package:dio/dio.dart';
 import 'package:intl/intl.dart';
-import 'package:nasa_app/src/models/apod_result.dart';
-import 'package:nasa_app/src/models/epic_result.dart';
-import 'package:nasa_app/src/models/search_result.dart';
+import 'package:space_api_app/src/models/apod_result.dart';
+import 'package:space_api_app/src/models/epic_result.dart';
+import 'package:space_api_app/src/models/search_result.dart';
 
 String searchEndPoint = "https://images-api.nasa.gov/search?q=query";
 

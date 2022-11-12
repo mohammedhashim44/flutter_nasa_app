@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
-import 'package:nasa_app/src/controllers/search_controller.dart';
-import 'package:nasa_app/src/models/search_result.dart';
-import 'package:nasa_app/src/ui/widgets/try_again_error_widget.dart';
-import 'package:nasa_app/src/ui/widgets/loading_widget.dart';
+import 'package:space_api_app/src/controllers/search_controller.dart';
+import 'package:space_api_app/src/models/search_result.dart';
+import 'package:space_api_app/src/ui/widgets/try_again_error_widget.dart';
+import 'package:space_api_app/src/ui/widgets/loading_widget.dart';
 
 import 'nasa_media_item_card.dart';
 

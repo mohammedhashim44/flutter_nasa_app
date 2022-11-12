@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:nasa_app/src/ui/pages/bottom_navigation_screen/navigation_item_widget.dart';
-import 'package:nasa_app/src/ui/pages/bottom_navigation_screen/navigation_tab_data.dart';
+import 'package:space_api_app/src/ui/pages/bottom_navigation_screen/navigation_item_widget.dart';
+import 'package:space_api_app/src/ui/pages/bottom_navigation_screen/navigation_tab_data.dart';
 import 'dart:math' as math;
 
 class BottomNavigationScreen extends StatefulWidget {

@@ -1,6 +1,6 @@
 import 'package:mvc_pattern/mvc_pattern.dart';
-import 'package:nasa_app/src/models/apod_result.dart';
-import 'package:nasa_app/src/repositories/api_repository.dart';
+import 'package:space_api_app/src/models/apod_result.dart';
+import 'package:space_api_app/src/repositories/api_repository.dart';
 
 // APOD : Astronomy Picture Of The Day
 class APODController extends ControllerMVC {

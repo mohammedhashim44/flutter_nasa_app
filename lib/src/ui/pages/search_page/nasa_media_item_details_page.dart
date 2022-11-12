@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:nasa_app/src/models/search_result.dart';
-import 'package:nasa_app/src/ui/widgets/app_text.dart';
-import 'package:nasa_app/src/ui/widgets/extended_text_widget.dart';
-import 'package:nasa_app/src/ui/widgets/image_widgets/app_image_with_photo_view_widget.dart';
+import 'package:space_api_app/src/models/search_result.dart';
+import 'package:space_api_app/src/ui/widgets/app_text.dart';
+import 'package:space_api_app/src/ui/widgets/extended_text_widget.dart';
+import 'package:space_api_app/src/ui/widgets/image_widgets/app_image_with_photo_view_widget.dart';
 import 'flutter_shuttle_builder.dart';
 
 class NasaMediaItemDetails extends StatelessWidget {

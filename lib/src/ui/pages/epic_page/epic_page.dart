@@ -1,11 +1,11 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
-import 'package:nasa_app/src/controllers/epic_controller.dart';
-import 'package:nasa_app/src/models/epic_result.dart';
-import 'package:nasa_app/src/ui/widgets/app_text.dart';
-import 'package:nasa_app/src/ui/widgets/loading_widget.dart';
-import 'package:nasa_app/src/ui/widgets/try_again_error_widget.dart';
+import 'package:space_api_app/src/controllers/epic_controller.dart';
+import 'package:space_api_app/src/models/epic_result.dart';
+import 'package:space_api_app/src/ui/widgets/app_text.dart';
+import 'package:space_api_app/src/ui/widgets/loading_widget.dart';
+import 'package:space_api_app/src/ui/widgets/try_again_error_widget.dart';
 import 'earth_image_widget.dart';
 
 // EPIC : Earth Polychromatic Imaging Camera
